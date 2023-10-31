@@ -1,8 +1,8 @@
 {
   "name": "KoutaCare-Frontend",
   "version": 2,
-  "builds": [{ "src": "src/index.js", "use": "@vercel/node" }],
+  "builds": [{ "src": "server/index.js", "use": "@vercel/node" }],
   "routes": [
-    { "src": "/(.*)", "dest": "src/index.js" }
+    { "src": "/(.*)", "dest": "server/index.js" }
   ]
 }
