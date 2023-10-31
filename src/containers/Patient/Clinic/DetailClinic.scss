@@ -1,7 +1,8 @@
 .detail-clinic-container {
-    min-height: 245rem;
+    min-height: 278rem;
+    height: auto;
     background-color: #eaeaea;
-
+    
     .detail-clinic {
 
         .detail-clinic-container-up {
@@ -63,6 +64,42 @@
                     text-align: justify;
                     box-shadow: 0px 1px 6px rgba(32, 33, 36, 0.28);
 
+                }
+            }
+        }
+    }
+
+    .list-doctor {
+       
+        position: relative;
+        top: 212rem;
+        .detail-specialty-content {
+            background-color: #fff;
+            padding: 3rem;
+            border-radius: 1rem;
+            min-height: 30rem;
+            box-shadow: 0 0.3rem 1.3rem rgba(0, 0, 0, 0.3);
+            margin-top: 2rem;
+
+
+
+            .detail-specialty-each-doctor {
+                display: flex;
+                width: 100%;
+
+                .detail-specialty-content-left {
+                    width: 50%;
+                    border-right: 1px solid #eaeaea;
+                    padding-right: 1rem;
+                }
+
+                .detail-specialty-content-right {
+                    width: 50%;
+                    margin-left: 1rem;
+
+                    .detail-specialty-doctor-schedule {}
+
+                    .detail-specialty-doctor-extra-info {}
                 }
             }
         }

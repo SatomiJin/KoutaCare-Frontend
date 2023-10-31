@@ -83,7 +83,7 @@ class OffCanvas extends Component {
       <div>
         <div
           className="offcanvas offcanvas-start"
-          tabindex="-1"
+          tabIndex="-1"
           id="menuOptionHeader"
           aria-labelledby="offcanvasExampleLabel"
         >

@@ -4,12 +4,16 @@ import "./DetailClinic.scss";
 import LoadingPage from "../../../components/LoadingPage";
 import HeaderHome from "../../HomePage/HeaderHome";
 import * as userService from "../../../services/userService";
+import DoctorExtraInfo from "../Doctor/DoctorExtraInfo";
+import DoctorSchedule from "../Doctor/DoctorSchedule";
+import ProfileDoctor from "../Doctor/ProfileDoctor";
 
 class DetailClinic extends Component {
   constructor(props) {
     super(props);
     this.state = {
       dataClinic: "",
+      arrDoctorId: [],
       isLoading: false,
     };
   }
@@ -19,10 +23,12 @@ class DetailClinic extends Component {
     if (this.props.match && this.props.match.params && this.props.match.params.id) {
       let clinicId = this.props.match.params.id;
       let res = await userService.getClinicById(clinicId);
-      if (res && res.status === "OK") {
+      let resDoctor = await userService.getDoctorByClinic(clinicId);
+      if (res && res.status === "OK" && resDoctor && resDoctor.status === "OK") {
         this.handleLoading();
         this.setState({
           dataClinic: res.data,
+          arrDoctorId: resDoctor.doctors,
         });
       }
     }
@@ -35,7 +41,7 @@ class DetailClinic extends Component {
   componentDidUpdate(prevProps, prevState, snapshot) {}
 
   render() {
-    let { isLoading, dataClinic } = this.state;
+    let { arrDoctorId, isLoading, dataClinic } = this.state;
 
     return (
       <>
@@ -64,6 +70,35 @@ class DetailClinic extends Component {
                 </div>
               </div>
             </div>
+          </div>
+
+          <div className="list-doctor container">
+            {arrDoctorId &&
+              arrDoctorId.length > 0 &&
+              arrDoctorId.map((item, index) => {
+                return (
+                  <div className="detail-specialty-content " key={index}>
+                    <div className="detail-specialty-each-doctor">
+                      <div className="detail-specialty-content-left">
+                        <ProfileDoctor
+                          doctorId={item.doctorId ? item.doctorId : ""}
+                          isShowDes={true}
+                          isShowLinkDetail={true}
+                          isShowPrice={false}
+                        />
+                      </div>
+                      <div className="detail-specialty-content-right">
+                        <div className="detail-specialty-doctor-schedule">
+                          <DoctorSchedule doctorId={item.doctorId} />
+                        </div>
+                        <div className="detail-specialty-doctor-extra-info">
+                          <DoctorExtraInfo doctorId={item.doctorId} />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                );
+              })}
           </div>
         </div>
       </>

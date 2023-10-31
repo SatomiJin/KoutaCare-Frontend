@@ -25,6 +25,7 @@ class ProfileDoctor extends Component {
 
     if (this.props.doctorId) {
       let res = await userService.getProfileDoctor(this.props.doctorId);
+
       if (res && res.status === "OK") {
         this.setState({
           profileDoctor: res.profile,

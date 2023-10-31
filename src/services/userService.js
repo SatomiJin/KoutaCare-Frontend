@@ -128,6 +128,10 @@ export const getAllClinic = () => {
   return axios.get(`/api/clinic/get-all-clinic`);
 };
 
+//get doctor by clinic
+export const getDoctorByClinic = (clinicId) => {
+  return axios.get(`/api/clinic/get-doctor-by-clinic?clinicId=${clinicId}`);
+};
 //edit clinic
 
 export const editClinicById = (data) => {

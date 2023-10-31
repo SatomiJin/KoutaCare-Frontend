@@ -148,12 +148,13 @@ class DetailSpecialty extends Component {
           {arrDoctorId &&
             arrDoctorId.length > 0 &&
             arrDoctorId.map((item, index) => {
+              console.log("item", item);
               return (
                 <div className="detail-specialty-content " key={index}>
                   <div className="detail-specialty-each-doctor">
                     <div className="detail-specialty-content-left">
                       <ProfileDoctor
-                        doctorId={item ? item : ""}
+                        doctorId={item ? item : -1}
                         isShowDes={true}
                         isShowLinkDetail={true}
                         isShowPrice={false}
