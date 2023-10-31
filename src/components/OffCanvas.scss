@@ -1,0 +1,56 @@
+.offcanvas {
+    .offcanvas-header {
+        background-color: #8EC5FC;
+        background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+
+    }
+
+    .offcanvas-body {
+        .user-info {
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 2rem;
+
+            .detail-user-wrapper {
+                display: flex;
+
+                .detail-user-avatar {
+                    height: 6rem;
+                    width: 6rem;
+                    border-radius: 50%;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    margin-right: 2rem;
+                }
+
+                .detail-user {
+                    font-size: 1rem;
+                    font-weight: 600;
+                    text-align: justify;
+                }
+            }
+        }
+
+        .menu-options {
+            .menu-wrapper {
+                row-gap: 1rem;
+
+                button {
+                    transition: all 0.3s ease 0s;
+                    color: #000;
+                    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+                    outline: none;
+                    border: 0.2px solid #ccc;
+
+                    &:hover {
+                        border: none;
+                        color: #fff;
+                        outline: none;
+                        background-color: #2EE59D;
+                        box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+                    }
+                }
+            }
+        }
+    }
+}

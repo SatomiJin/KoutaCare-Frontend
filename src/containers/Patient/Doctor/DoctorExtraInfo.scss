@@ -1,0 +1,87 @@
+.doctor-extra-info-container {
+    .doctor-extra-content-up {
+        border-bottom: 1px solid #ccc;
+
+        .text-address {
+            text-transform: uppercase;
+            font-weight: 700;
+            font-size: 1.4rem;
+        }
+
+        .name-clinic {
+            font-weight: 600;
+        }
+
+        .address-detail-clinic {
+            font-weight: 500;
+            font-style: italic;
+        }
+    }
+
+    .doctor-extra-content-down {
+        .collapse-detail {
+            .collapse-detail-title {
+                text-transform: uppercase;
+                font-weight: 600;
+                font-size: 1.2rem;
+            }
+
+            .see-more-detail {
+                cursor: pointer;
+                color: #279EFF;
+                font-size: 1.2rem;
+                font-weight: 500;
+            }
+        }
+
+        .more-details {
+
+            .more-details-title {
+                font-size: 1.4rem;
+                text-transform: uppercase;
+                font-weight: 700;
+                margin: 0.5rem 0;
+            }
+
+            .more-details-container {
+                padding: 1rem;
+                border-radius: 0.4rem;
+                font-weight: 500;
+                font-size: 1.2rem;
+                box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+
+                .more-details-content {
+                    .more-details-content-top {
+                        display: flex;
+                        position: relative;
+
+                        .more-details-right {
+                            position: absolute;
+                            font-size: 1.2rem;
+                            color: rgb(255, 66, 78);
+                            top: 0;
+                            right: 0;
+                        }
+                    }
+                }
+
+                .more-details-payment-options {
+                    border: 1px solid #ccc;
+                    background-color: #ddd;
+                    margin: 0.4rem 0;
+                    border-radius: 0.4rem;
+                    padding: 0.2rem 0 0.2rem 0.4rem;
+                }
+
+                .hide-detail {
+                    cursor: pointer;
+                    color: #279EFF;
+                    font-size: 1.2rem;
+                    font-weight: 500;
+                }
+            }
+
+        }
+
+    }
+}

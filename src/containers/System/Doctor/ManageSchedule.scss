@@ -1,0 +1,31 @@
+.manage-schedule-medical-container {
+    background-color: #eaeaea;
+    min-height: 100vh;
+    height: auto;
+    padding: 1.3rem 0;
+
+    .manage-schedule {
+        background-color: #fff;
+        box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+        height: auto;
+        border-radius: 6px;
+        padding: 1.4rem;
+
+        .title {
+            // color: black;
+        }
+
+        .schedule-content {
+            .select-hours-container {
+                display: flex;
+                gap: 1.5rem;
+                flex-wrap: wrap;
+                padding: 1rem;
+                justify-content: center;
+                .btn-times-schedule {
+                    padding: 0.5rem;
+                }
+            }
+        }
+    }
+}

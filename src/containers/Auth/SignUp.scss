@@ -1,0 +1,72 @@
+.sign-up-page-container {
+    font-size: 1rem;
+    font-weight: 600;
+    background-image: url('../../assets/images/background/sign-up-background-3.jpg');
+    background-position: center;
+    image-rendering: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+    .sign-up-page-wrapper {
+        border: 1px solid red;
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+
+        .logo-background {
+
+            position: absolute;
+            right: 1rem;
+            bottom: 1rem;
+            background-color: #0000007d;
+            border-radius: 50%;
+
+            .kouta-code {
+                height: 7rem;
+                width: 7rem;
+            }
+        }
+
+        .sign-up-page-wrapper-form {
+            display: flex;
+            // background-color: #0000007d;
+
+
+            background-color: rgba(255, 255, 255, 0.6);
+            // box-shadow: rgba(250, 250, 250, 0.3) 0px 3px 8px;
+            border-radius: 1rem;
+            width: 40rem;
+            height: auto;
+
+            .form-sign-up-container {
+                .row {
+                    row-gap: 1rem;
+
+
+
+                    .btn-sign-up {
+                        color: #fff;
+                        background-image: linear-gradient(to right, #DA22FF 0%, #9733EE 51%, #DA22FF 100%);
+                        box-shadow: rgba(222, 200, 200, 0.4) 0px 0px 0px 2px, rgba(214, 192, 192, 0.65) 0px 4px 6px -1px, rgba(216, 200, 200, 0.08) 0px 1px 0px inset;
+                        &:hover{
+                            opacity: 0.7;
+                        }
+                    }
+                    .back-to-sign-in-link{
+                        text-decoration: none;
+                        color: #000;
+                        font-size: 1.2rem;
+                        transition: 0.5s;
+                        &:hover{
+                            color: #89CFF3;
+                            text-shadow: 1px 1px 1px#000;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

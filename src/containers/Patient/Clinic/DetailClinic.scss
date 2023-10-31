@@ -1,0 +1,70 @@
+.detail-clinic-container {
+    min-height: 245rem;
+    background-color: #eaeaea;
+
+    .detail-clinic {
+
+        .detail-clinic-container-up {
+            background-image: url('https://raw.githubusercontent.com/SatomiJin/sern-stack-host-file-with-github/host-image/731739.png');
+            height: 20rem;
+            background-position: bottom;
+            background-repeat: no-repeat;
+            background-size: cover;
+            border-bottom: 2px solid #fff;
+        }
+
+        .detail-clinic-container-down {
+
+            .detail-clinic-wrapper {
+                height: 10rem;
+                position: relative;
+                top: -9rem;
+
+
+                .detail-clinic-header {
+                    display: flex;
+                    min-height: 15rem;
+                    background-color: rgba(255, 255, 255, 0.7);
+                    padding: 2rem;
+                    border-radius: 1rem;
+                    box-shadow: 0px 1px 6px rgba(32, 33, 36, 0.28);
+
+                    .detail-clinic-header-left {
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                        width: 20%;
+                        border-radius: 1rem;
+
+                    }
+
+                    .detail-clinic-header-right {
+                        width: 80%;
+                        margin-left: 2rem;
+
+                        .detail-clinic-header-right-name {
+                            font-size: 2.4rem;
+                            font-weight: 600;
+                        }
+
+                        .detail-clinic-header-right-address {
+                            font-size: 1.6rem;
+                            color: rgba(40, 49, 63, 0.8);
+                            font-weight: 400;
+                        }
+                    }
+                }
+
+                .detail-clinic-content {
+                    background-color: rgba(255, 255, 255, 1);
+                    padding: 2rem;
+                    font-size: 1.3rem;
+                    border-radius: 1rem;
+                    text-align: justify;
+                    box-shadow: 0px 1px 6px rgba(32, 33, 36, 0.28);
+
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+.all-specialty-container {}
+
+.view-info-modal-container {
+    font-size: 1.2rem;
+
+    .modal-content {
+        .modal-header {
+            color: #fff;
+            background-color: #0093E9;
+            background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+
+        }
+    }
+
+    .detail-specialty-image {
+        height: 6rem;
+        width: 6rem;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 50%;
+    }
+}

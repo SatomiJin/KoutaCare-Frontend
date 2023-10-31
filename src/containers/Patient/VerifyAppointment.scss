@@ -1,0 +1,30 @@
+.verify-container {
+
+    background-image: url('https://raw.githubusercontent.com/SatomiJin/sern-stack-host-file-with-github/host-image/wallpaperflare.com_wallpaper.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .verify-wrapper {
+        color: #A6F6FF;
+        height: 50vh;
+        width: 50vw;
+        text-align: center;
+        background-color: #0000007d;
+        border-radius: 3rem;
+        box-shadow: rgba(223, 223, 236, 0.25) 0px 13px 27px -5px, rgba(252, 247, 247, 0.3) 0px 8px 16px -8px;
+        font-size: 1.9em;
+        text-transform: uppercase;
+        font-weight: 500;
+        
+        .verify-content{
+            margin-top: 3em;
+            margin-bottom: 1rem;
+
+        }
+    }
+}

@@ -1,0 +1,38 @@
+.user-redux-container {
+    background-color: #ededed;
+    padding-top: 2rem;
+    min-height: 100vh;
+
+    .user-redux-wrapper {
+        border: 1px solid #ccc;
+        background-color: #fff;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        border-radius: 1rem;
+        padding: 2rem;
+
+        .user-redux-body {
+            .preview-img-container {
+
+                .btn-upload-avatar {
+                    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+
+                    label {
+                        width: 100%;
+                        height: 100%;
+                        cursor: pointer;
+                    }
+                }
+
+                .preview-avatar {
+                    height: 100px;
+                    width: 100px;
+                    background-position: center center;
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    border-radius: 50%;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}

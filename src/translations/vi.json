@@ -1,0 +1,225 @@
+{
+    "homeheader": {
+        "speciality": "Chuyên khoa",
+        "searchdoctor": "Tìm bác sĩ theo chuyên khoa",
+        "health-facility": "Cơ sở y tế",
+        "select-hospital": "Chọn bệnh viện, phòng khám",
+        "doctor": "Bác sĩ",
+        "choose-doctor": "Chọn bác sĩ giỏi",
+        "pack": "Gói khám",
+        "Comprehensive": "Khám sức khỏe tổng quát",
+        "support": "Hỗ trợ",
+        "welcome": "Chào mừng,"
+    },
+    "banner": {
+        "first-title-header": "NỀN TẢNG Y TẾ",
+        "second-title-header": "CHĂM SÓC SỨC KHỎE TOÀN DIỆN",
+        "speciality-examination": "Khám chuyên khoa",
+        "remote-medical": "Khám từ xa",
+        "routine-medical": "Khám tổng quát",
+        "medical-testing": "Xét nghiệm y học",
+        "mental-health": "Sức khỏe tinh thần",
+        "dentistry": "Khám nha khoa",
+        "doctor-featured-last-week": "Bác sĩ nổi bật tuần qua"
+    },
+    "menu": {
+        "system": {
+            "header": "Hệ thống",
+            "system-administrator": {
+                "header": "Quản trị hệ thống",
+                "user-manage": "Quản lý người sử dụng",
+                "user-redux": "Quản lý người dùng(redux)",
+                "register-package-group-or-account": "Đăng ký gói dịch vụ cho nhóm/tài khoản"
+            },
+            "system-parameter": {
+                "header": "Tham số hệ thống"
+            }
+        },
+        "admin": {
+            "manage-user": "Người dùng",
+            "manage-doctor": "Quản lý thông tin bác sĩ",
+            "manage-admin": "Quản lý admin",
+            "crud": "Thêm, Xóa, Sữa người dùng",
+            "crud-redux": "Thêm, Xóa, Sữa người dùng (redux)",
+            "create-user-redux": "Thêm người dùng (redux)",
+            "view-all-user": "Quản lý thông tin người dùng (redux)",
+            "manage-general": "Quản lý chung",
+            "manage-clinic": "Quản lý phòng khám",
+            "manage-specialty": "Quản lý chuyên khoa",
+            "manage-handbook": "Quản lý cẩm nang",
+            "add-specialty": "Thêm chuyên khoa",
+            "info-specialty": "Tất cả chuyên khoa",
+            "add-new-clinic": "Thêm phòng khám",
+            "all-clinic": "Tất cả phòng khám",
+            "home": "Trang chính",
+            "custom": "Tùy chỉnh"
+
+        },
+        "doctor": {
+            "manage-doctor-general": "Quản lý chung",
+            "manage-schedule": "Quản lý lịch khám",
+            "manage-patient-booking": "Quản lý lịch khám đã đặt"
+        }
+        
+    },
+    "manage-user": {
+        "title" : "Quản lý người dùng với KoutaCare",
+        "add": "Thêm người dùng mới",
+        "email": "Địa chỉ Email",
+        "password": "Mật khẩu",
+        "first-name": "Họ",
+        "last-name": "Tên",
+        "phone-number": "Số điện thoại",
+        "address": "Địa chỉ",
+        "gender": "Giới tính",
+        "role": "Quyền",
+        "position": "Chức vụ",
+        "image": "Ảnh đại diện",
+        "create": "Tạo người dùng mới",
+        "your-avatar": "Ảnh đại diện của bạn",
+        "edit-user": "Chỉnh sửa thông tin",
+        "actions": "Thao tác"
+    },
+    "positions": {
+        "master": "Giáo sư"
+    },
+    "home-page": {
+        "popular-specialties": "Chuyên khoa phổ biến",
+        "outstanding-medical-facilities": "Cơ sở y tế nổi bật",
+        "handbook": "Cẩm nang",
+        "load-more": "Xem thêm"
+    },
+    "manage-schedule": {
+        "title": "Quản lý lịch khám bệnh của bác sĩ",
+        "choose-doctor": "Chọn bác sĩ:",
+        "select-date": "Chọn ngày khám bệnh:",
+        "save-schedule": "Lưu thông tin lịch khám",
+        "choose-times": "Chọn khung giờ:",
+        "invalid-date": "Vui lòng chọn ngày cần lên lịch!",
+        "invalid-doctor": "Vui lòng chọn bác sĩ cho lịch khám!",
+        "invalid-time": "Vui lòng chọn khung giờ khám bệnh!",
+        "save-schedule-success": "Lưu lịch khám thành công!",
+        "save-schedule-failed" : "Lưu lịch khám không thành công!"
+    },
+    "doctor-detail": {
+        "calender": "Lịch khám",
+        "not-schedule-valid": "Bác sĩ không có lịch khám hôm nay!",
+        "booking-free": "Chọn và đặt lịch (miễn phí)",
+        "examination-price": "Giá khám",
+        "see-detail": "Xem chi tiết",
+        "price-15-m": "Giá tư vấn 15 phút:",
+        "price-30-m": "Giá tư vấn 30 phút:",
+        "payment-all": "Phòng khám có thanh toán bằng hình thức tiền mặt và quẹt thẻ",
+        "payment-atm":"Phòng khám thanh toán bằng thẻ ATM",
+        "payment-cash": "Phòng khám thành toán bằng tiền mặt",
+        "hide-detail": "Thu gọn",
+        "address-clinic": "Địa chỉ khám",
+        "free-booking": "Miễn phí đặt lịch",
+        "booking-success": "Đặt lịch khám thành công",
+        "booking-failed": "Đặt lịch thất bại!",
+        "full-name": "Họ tên",
+        "booking-info": "Thông tin đặt lịch",
+        "phone-number": "Số điện thoại",
+        "email-address": "Địa chỉ Email",
+        "address": "Địa chỉ liên hệ",
+        "reason-booking": "Lý do khám",
+        "birthday": "Ngày sinh",
+        "gender": "Giới tính",
+        "close-modal": "Đóng",
+        "save-booking": "Lưu thông tin"
+    },
+    "admin": {
+        "welcome": "Chào mừng bạn đến với trang quản trị",
+        "title": "Tạo thông tin bác sĩ",
+        "select-doctor": "Chọn bác sĩ:",
+        "doctor-description": "Thông tin giới thiệu:",
+        "save-information": "Lưu thông tin",
+        "updates-information": "Cập nhật thông tin",
+        "select-price":"Chọn mức giá",
+        "select-payment": "Chọn phương thức thanh toán",
+        "select-province": "Chọn tỉnh thành",
+        "clinic-name": "Tên phòng khám",
+        "clinic-address": "Địa chỉ phòng khám",
+        "note": "Ghi chú",
+        "missing-params": "Thiếu thông tin để cập nhật",
+        "select-specialty": "Chọn chuyên khoa",
+        "select-clinic": "Chọn phòng khám",
+        "specialty": {
+            "manage-specialty": "Quản lý chuyên khoa",
+            "specialty-name": "Tên chuyên khoa",
+            "specialty-avatar": "Ảnh chuyên khoa",
+            "specialty-save":"Lưu chuyên khoa",
+            "manage-specialty-info": "Quản lý thông tin chuyên khoa",
+            "created-at": "Ngày tạo",
+            "detail-specialty": "Thông tin chuyên khoa",
+            "specialty-description":"Thông tin mô tả chuyên khoa",
+            "close-modal-specialty":"Đóng",
+            "delete-specialty": "Xóa chuyên khoa",
+            "quest-delete": "Bạn có muốn xóa chuyên khoa:",
+            "accept-delete": "Đồng ý",
+            "save-modal-specialty": "Lưu thông tin"
+        },
+        "clinic": {
+            "add-clinic": "Thêm phòng khám mới",
+            "name-clinic": "Tên phòng khám",
+            "clinic-image": "Ảnh phòng khám",
+            "clinic-address": "Địa chỉ phòng khám",
+            "save-clinic": "Tạo phòng khám",
+            "all-clinic": "Quản lý thông tin phòng khám",
+            "clinic-detail": "Thông tin phòng khám",
+            "clinic-description": "Chi tiết phòng khám",
+            "question-delete-clinic": "Bạn có chắc muốn xóa phòng khám này không?"
+        },
+        "manage-patient-booking": {
+            "loading": "Đang tải...",
+            "manage-booking": "Quản lý lịch khám bệnh của bệnh nhân",
+            "choose-date": "Chọn ngày khám",
+            "full-name": "Họ và tên",
+            "gender": "Giới tính",
+            "phone-number": "Số điện thoại",
+            "address": "Địa chỉ",
+            "status": "Trạng thái",
+            "time": "Thời gian",
+            "actions": "Thao tác",
+            "confirm": "Xác nhận",
+            "cancel": "Đóng",
+            "no-appointment": "Hôm nay không có lịch khám nào!!",
+            "invoice": "Thông tin hóa đơn",
+            "patient-email": "Email bệnh nhân",
+            "remedy-invoice": "Chọn toa thuốc/hóa đơn",
+            "send-invoice": "Gửi hóa đơn"
+
+
+
+
+        }
+    },
+    "toast": {
+        "create-user-success": "Tạo người dùng mới thành công!!",
+        "create-user-failed": "Tạo người dùng mới thất bại!!!",
+        "sign-up-success": "Đăng ký người dùng thành công!!",
+        "sign-up-failed": "Đăng ký người dùng thất bại!!!"
+    },
+    "sign-up": {
+        "sign-up-now": "Đăng ký ngay!!",
+        "email-address": "Địa chỉ Email",
+        "password": "Mật khẩu",
+        "confirm-password": "Nhập lại mật khẩu",
+        "first-name": "Họ",
+        "last-name": "Tên",
+        "address": "Địa chỉ",
+        "phone-number": "Số điện thoại",
+        "gender": "Giới tính",
+        "sign-up": "Đăng ký",
+        "sign-in": "Quay lại đăng nhập"
+    },
+    "login":{
+        "login":"Đăng nhập",
+        "username": "Tên đăng nhập:",
+        "password": "Mật khẩu:",
+        "sign-up-now": "Đăng ký ngay!!",
+        "forgot-password": "Quên mật khẩu",
+        "login-orther": "Hoặc đăng nhập với:",
+        "login-success": "Đăng nhập thành công!!!"
+    }
+}

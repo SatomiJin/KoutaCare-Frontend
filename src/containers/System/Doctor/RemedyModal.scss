@@ -1,0 +1,23 @@
+
+.row {
+    .form-group {
+        .preview-remedy-image {
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 6rem;
+            width: 6rem;
+            border-radius: 50%;
+
+            &:hover {
+                cursor: pointer;
+                border: 2px solid #000;
+            }
+        }
+    }
+}
+.modal-footer{
+    .btn{
+        padding: 0.5rem;
+    }
+}

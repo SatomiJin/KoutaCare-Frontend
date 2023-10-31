@@ -1,0 +1,140 @@
+@import url("https://use.fontawesome.com/release/v6.4.2/css/all.css");
+
+:root {
+    --primary-color: #0072b1;
+    --secondary-color: #E1306C;
+    --accent-color: #FF0050;
+    --background-color: #4267b2;
+}
+
+@keyframes color-change {
+    0% {
+        color: #FFC3A0; /* Màu pastel cam đào */
+    }
+    25% {
+        color: #A8D8E6; /* Màu pastel xanh dương */
+    }
+    50% {
+        color: #E3A9A1; /* Màu pastel hồng nhạt */
+    }
+    75% {
+        color: #B5EAD7; /* Màu pastel xanh lá cây nhạt */
+    }
+    100% {
+        color: #FFE9A3; /* Màu pastel vàng nhạt */
+    }
+}
+
+
+.welcome-admin-container {
+    min-height: 100vh;
+    background-color: rgba(0, 0, 0, 0.99);
+    position: relative;
+
+    .welcome-admin-title {
+        position: absolute;
+        color: #fff;
+        font-size: 3rem;
+        top: 10%;
+        left: 10%;
+        background: rgba(0, 0, 0, 0);
+        font-size: 4em;
+        -webkit-box-reflect: below 5px linear-gradient(to bottom, rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.4));
+        animation: color-change 1s infinite;
+    }
+
+    .welcome-admin-wrapper {
+        top: 40%;
+        position: absolute;
+        display: flex;
+        // align-items: center;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        justify-content: center;
+
+        a {
+            display: flex;
+            margin: 0 0.5rem;
+
+            box-sizing: border-box;
+            background: #fff;
+            width: 10rem;
+            height: 10rem;
+
+            i {
+                border-radius: 50%;
+                padding: 1rem;
+            }
+
+            .fa-linkedin-in {
+                color: var(--primary-color);
+                border-radius: 50%;
+            }
+
+            .fa-instagram {
+                border-radius: 50%;
+                color: var(--secondary-color);
+            }
+
+            .fa-tiktok {
+                border-radius: 50%;
+                color: var(--accent-color);
+            }
+
+            .fa-facebook-f {
+                color: var(--background-color);
+            }
+
+            justify-content: center;
+            align-items: center;
+            text-decoration: none;
+            transition: 1s;
+            background: rgba(0, 0, 0, 0);
+            font-size: 4em;
+            -webkit-box-reflect: below 5px linear-gradient(to bottom, rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.4));
+
+            .fa-linkedin-in:hover {
+                color: #050801;
+                background: var(--primary-color);
+                box-shadow: 0 0 0.5rem var(--primary-color),
+                    0 0 2.5rem var(--primary-color),
+                    0 0 5rem var(--primary-color),
+                    0 0 20rem var(--primary-color);
+            }
+
+            .fa-instagram:hover {
+                color: #050801;
+                background: var(--secondary-color);
+                box-shadow: 0 0 0.5rem var(--secondary-color),
+                    0 0 2.5rem var(--secondary-color),
+                    0 0 5rem var(--secondary-color),
+                    0 0 20rem var(--secondary-color);
+            }
+
+            .fa-tiktok:hover {
+                color: #050801;
+                background: var(--accent-color);
+                box-shadow: 0 0 0.5rem var(--accent-color),
+                    0 0 2.5rem var(--accent-color),
+                    0 0 5rem var(--accent-color),
+                    0 0 20rem var(--accent-color);
+            }
+
+            .fa-facebook-f:hover {
+                background: var(--background-color);
+                color: #050801;
+                box-shadow: 0 0 0.5rem var(--background-color),
+                    0 0 2.5rem var(--background-color),
+                    0 0 5rem var(--background-color),
+                    0 0 20rem var(--background-color);
+            }
+
+        }
+
+    }
+}
+
+// color: "#0072b1"
+// color: "#E1306C"
+// color: "#FF0050"
+// color: "#4267b2" 

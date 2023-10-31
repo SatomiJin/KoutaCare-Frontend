@@ -1,0 +1,178 @@
+.homepage-container {
+    background-color: #eaeaea;
+    min-height: 132rem;
+}
+
+//reset slick slider css
+.slick-prev {
+    left: -15px !important;
+    border-radius: 0.3rem !important;
+    z-index: 10 !important;
+    width: 3rem !important;
+    height: 3rem !important;
+    background: #0000007d !important;
+    border: 1px solid #d7d7d7 !important;
+
+    &:hover {
+        opacity: 0.7 !important;
+    }
+
+    &::before {
+        font-family: FontAwesome !important;
+        color: #fff !important;
+        content: "\f060" !important;
+    }
+}
+
+.slick-next {
+    
+    border-radius: 0.3rem !important;
+    width: 3rem !important;
+    height: 3rem !important;
+    right: -1.2rem !important;
+   
+    background: #0000007d !important;
+    border: 1px solid #d7d7d7 !important;
+
+    &:hover {
+        opacity: 0.7 !important;
+    }
+
+    &::before {
+        font-family: FontAwesome !important;
+        content: "\f061" !important;
+        color: #fff !important;
+    }
+}
+
+.slick-disabled {
+    display: none !important;
+}
+
+//11111111111111111111111111111111
+
+.section-share {
+    margin: 2rem 4rem 2rem 4rem;
+    background: #fbfbff;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    border-radius: 1rem;
+
+    .section-body {
+        height: 85%;
+       .link-to{
+        color: #000;
+        text-decoration: none;
+       }
+        .section-custom {
+            padding: 0.4rem;
+            cursor: pointer;
+            font-weight: 500;
+            font-size: 1.2rem;
+            &:hover {
+              color: #279EFF;
+                opacity: 0.7;
+            }
+
+            .section-border {
+                border: 1px solid #ccc;
+
+            }
+
+            .outer-bg-doctor {
+                width: 100%;
+                display: flex;
+                flex-wrap: nowrap;
+                align-items: center;
+                justify-content: center;
+            }
+
+            .position-doctor {
+                font-size: 1.2rem;
+                font-weight: 500;
+            }
+
+            .bg-image {
+                height: 12.5rem;
+                width: 18rem;
+                border: 1px solid #959090;
+                border-radius: 0.4rem;
+                background-position: center center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-color: #eee;
+                
+
+                &.section-specialty {
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    
+                }
+
+
+                &.section-outstanding-doctor {
+                    height: 11rem;
+                    width: 11rem;
+
+                    border-radius: 50%;
+
+                    &:hover {
+                        outline: 2px solid black;
+                       
+                    }
+                }
+
+                &.section-handbook {
+                    background-image: url("../../assets/images/handbook/164847-chuyen-gia-tu-van-tam-ly-online-tu-xa.jpg");
+                }
+            }
+        }
+    }
+}
+
+.section-share {
+
+   
+    min-height: 27rem;
+     padding-bottom: 2rem;
+    .section-container {
+        margin: 0 4rem;
+        display: flex;
+        flex-direction: column;
+        padding-top: 2rem;
+        .section-header {
+            height: 15%;
+            margin-bottom: 2rem;
+            
+
+            .title-section {
+                font-size: 1.6rem;
+                font-weight: 600;
+            }
+
+            .btn-section {
+                display: block;
+                padding: 1rem 1.1rem;
+                margin-right: 3.6rem;
+                border-radius: 0.3rem;
+                background-color: #fff;
+                box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+                float: right;
+                border: none;
+                outline: none;
+                text-transform: uppercase;
+                transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+
+                &:hover {
+                    opacity: 0.7;
+                    box-shadow: rgba(50, 50, 93, 0.25) 0px 2rem 4rem -1rem inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+                    color: grey;
+                }
+            }
+        }
+
+
+    }
+}
+
+// specialty-content
